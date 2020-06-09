@@ -1,0 +1,136 @@
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity:0.9;
+    text-align: center;
+    margin: auto;
+    width: 1200px;
+}
+
+a {
+    color:seashell;
+}
+
+header {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    height: 69px;
+    z-index: 10;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+nav {
+    margin-right: 10px;
+}
+
+span {
+        margin-left: 20px;
+}
+
+.spacer {
+    height: 69px;
+    width: 100%;
+    border: 1px solid red;
+}
+
+
+
+.missionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    height: 700px;
+    width: 1200px;
+    background-image: url("tc-images/img-mission-background.jpg");
+    margin: 0 auto;
+}
+
+.textStripOurMission {
+    
+    line-height: .1;
+    width: 100%;
+    height: 90px;
+    background-color: black;
+}
+
+.textStripTeaOfMonth {
+    line-height: .1;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+.featuredTeaContainer {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1000px;
+
+}
+
+.teaImage-Name {
+
+    padding-bottom: 10px;
+    margin: 10px 10px;
+}
+
+
+.teaImage {
+    width: 300px;
+}
+
+.teaName {
+    margin: 0;
+    padding: 0;
+}
+
+#locations-container{
+    background-image: url(tc-images/img-locations-background.jpg);
+    height: 500px;
+    width: 1200px;
+    display: block;
+    margin-top: 40px;
+}
+
+.locations-heading {
+    display: block;
+    width: 1200px;
+    height: 70px;
+    padding-top: 50px;
+}
+
+.locations-boxes {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+
+.locations-box {
+    width: 300px;
+    background-color: black;
+    margin: 0 20px;
+    text-align: center;
+}
+
+
+footer {
+    height: 200px;
+}
+
+#copyright {
+    text-align: left;
+    width: 100%;
+    
+}
